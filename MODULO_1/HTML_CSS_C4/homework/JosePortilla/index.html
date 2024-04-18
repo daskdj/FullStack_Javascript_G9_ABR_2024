@@ -4,16 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Actividad C4</title>
+
+    <style>
+        .general{
+            
+            display: flex;
+            text-align: left;
+            
+        }
+        
+       
+
+       
+        
+    </style>
 </head>
 <body>
-    <div id="general">
-        <div id="logo">
-            <img src="./imgs/logo.png" width="400">
-        </div>
+    <div class="general">
+          
+          
+          <div class="logo">
+            <img src="./imgs/logo.png" width="200">
+          </div>
 
-        <div>
-            <form action=""></form>
-        </div>
+          <div class="formulario">
+                <form>
+                    <label for="user">Usuario</label>
+                    <br>
+                    <input id="user " type="text">
+                    <br>
+                    <br>
+                    <label for="password">Password</label>
+                    <br>
+                    <input id="password" type="password">
+                    <br>
+                    <br>
+                    <button id="register">Registrarse</button>
+
+                </form>
+            
+          </div>
     </div>
+    <br>
+    <div class="formulario">
+
+            <h2>Formulario Básico</h2>
+        <fieldset>
+                 <legend>Rellenar</legend>
+                 
+                 <input type='radio' value="idiomaingles" name='idioma' >Ingles
+                           <br>
+                 <input type='radio' value="idiomaaleman" name='idioma'>Aleman
+                            <br>
+                 <input type='radio' value="idiomafrances" name='idioma'>Francés
+                            <br>
+                 <select name="conector" id="conector">
+                    <option value="usb">USB</option>
+                    <option value="paralelo">Paralelo</option>
+                    <option value="ps2">PS2</option>
+                </select>    
+                
+                <br>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                    <br>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="apellidos">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Indique sus preferencias por favor</legend>
+
+            <form>
+                <select multiple name="sexo" >
+                    <option value="hombre">Hombre</option>
+                    <option value="mujer">Mujer</option>
+                </select>
+                    <br>
+                <input type="checkbox" name="hombre">
+                <label for="hombre">Hombre</label> 
+                    <br>
+                <input type="checkbox" name="mujer">
+                <label for="mujer">Mujer</label> 
+                    <br>
+                <label for="fehca">Indique por favor la fecha</label>
+                <input type="date" name="fecha" id="">
+
+                
+            </form>
+        </fieldset>
+
+
+                    
+
+    </div>
+
+
+    
 </body>
 </html>
