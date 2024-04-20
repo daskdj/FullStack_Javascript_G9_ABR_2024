@@ -1,0 +1,24 @@
+/* para probar aplicamos un elemento que modifique el fondo del body */
+
+/* este archivo css lo vamos a utilizar para el tema de selectores basicos */
+
+body{
+    background-color: yellowgreen;
+}
+
+.contenedortitulo {
+    background-color: violet;
+    /* centrar texto */
+    /* text-align: center ; */
+
+    text-align: start;
+
+}   
+
+.titulo1pagina{
+    /* esta propiedad ayuda con los fondos de colores */
+    background-color: blue;
+    /* esta propiedad me ayuda a definir el ancho de los elementos */
+    /* width: 50%; */
+}
+
