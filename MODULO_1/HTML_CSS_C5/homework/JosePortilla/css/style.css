@@ -1,0 +1,18 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.fondo{
+    margin: 15px;
+    height: 600px;
+    width: 1100px;
+    background-image: url(../imgs/fondo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
