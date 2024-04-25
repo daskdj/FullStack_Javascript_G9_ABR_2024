@@ -1,0 +1,59 @@
+.general{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+      
+
+}
+
+.textoinferior{
+    font-size: 12px;
+}
+
+.contimag1{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(207, 207, 207);
+    border: solid rgb(207, 207, 207);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.imagen1{
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
+
+.contimag1{
+    font-size: 70px;
+    color: rgb(189, 189, 189);
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    
+        
+}
+
+.cajas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 10px;
+    height: 10%;
+    align-items: center;
+    vertical-align: auto;
+    
+
+}
+/* .titimag1{
+    width: 400px;
+    background-color: azure;
+    padding-bottom: 10%;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
