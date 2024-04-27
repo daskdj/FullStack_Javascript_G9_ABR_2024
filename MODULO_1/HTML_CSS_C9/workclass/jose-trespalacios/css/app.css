@@ -1,23 +1,38 @@
+
+/* selector universal */
 * {
-    background-color: bisque;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
+    ;
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
 }
 
-header {
-    background-color: darkgrey;
-    text-align: center;
-    font-family: monospace;
-    color: darkblue;
-    padding: 20px;
-    border: solid 5px darkblue;
-    border-radius: 20px;
-    font-size: 18px;
+body {
+    background-color: #dadada;
+
 }
+
+
+/* selector de elemento */
+header {
+   background-color: blueviolet;
+    margin: 20px 30px 0px 30px;
+}
+
 
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
+}
+
+.secciontituloprincipal {
+    text-align: center;
+    margin: 5px 5px;
+}
+
+.seccionparrafosheader {
+    text-align: end;
+    font-size: 14px;
+    margin: 10px 15px;
 }
