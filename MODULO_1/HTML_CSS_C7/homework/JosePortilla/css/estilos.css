@@ -1,8 +1,11 @@
+body{
+    background-color: whitesmoke;
+}
+
 .general{
+    background-color: whitesmoke;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-      
-
 }
 
 .textoinferior{
@@ -11,30 +14,55 @@
 
 .contimag1{
     width: 400px;
-    height: 300px;
+    height: 350px;
     background-color: rgb(207, 207, 207);
-    border: solid rgb(207, 207, 207);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border: solid rgb(207, 207, 207);    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    font-size: 70px;
+    color: rgb(189, 189, 189);
+    display: flex; justify-content: center; align-items: center;
 }
 
 .imagen1{
     width: 400px;
     height: 300px;
     align-items: center;
+    padding: 15px;
+/* 
+    border: solid;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+    
+
 }
 
-.contimag1{
-    font-size: 70px;
-    color: rgb(189, 189, 189);
-    text-align: center;
-    vertical-align: middle;
-    align-items: center;
+.cont1 {
     
-        
+    width: 25%;
+    
 }
+.cont2 {
+   
+    width: 25%;
+}
+
+.cont3 {
+    
+    width: 25%;
+}
+
+.titimg {
+    background-color: white;
+    margin-top: 0%;
+    width: 406px;
+    margin: 15PX;
+    border: whitesmoke;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px
+
+}
+
 
 .cajas{
     display: flex;
@@ -44,16 +72,30 @@
     margin: 10px;
     height: 10%;
     align-items: center;
-    vertical-align: auto;
-    
-
+    vertical-align: center;
+    justify-content: center;
 }
-/* .titimag1{
-    width: 400px;
-    background-color: azure;
-    padding-bottom: 10%;
-    text-align: left;
+
+#inferior {
+    background-color: #FFECB3;
+    border: solid #FFECB3;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex; justify-content: center; align-items: center;
+    width: 70%;
+    
+}
+.baninferior{
+   background-color: #FFE082;
+   border: solid #FFE082;
+   border-radius: 10px;
+   padding: 15px;
+   text-align: center;
+   width: 30%;
+    
+}
+
+.titulos{
     display: flex;
-    flex-wrap: wrap;
-} */
+}
 
