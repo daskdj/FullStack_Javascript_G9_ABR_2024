@@ -1,5 +1,166 @@
-nav ul{
+.menu-nav{
+    background-color: aqua;
+    color: white;
+    padding: 80px, 80px;
+    text-align: center;
+    display: block;
+
+}
+
+
+
+nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
+}
+
+* {
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    background-color:darkblue;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.seccciontit {
+    background-image: url(../resources/img1.jpg);
+    align-items: center;
+    vertical-align: center;
+    background-size: 50% 100%;
+    border: solid;
+    border-radius: 20px;
+    
+}
+
+main section {
+    padding: 40px 0;
+    margin: 20px 10px;
+    border-radius: 10px;
+    /* justify-content: center; */
+}
+
+.flexBooks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.seccionmaiden {
+    background-color: rgba(58, 57, 57, 0.37);
+    border: solid 10px red;
+    border-radius: 12px;
+}
+
+.seccionmetallica {
+    background-color: rgba(58, 57, 57, 0.37);
+    border: solid 10px red;
+    border-radius: 12px;
+}
+
+.seccionmotorhead {
+    background-color: rgba(58, 57, 57, 0.37);
+    border: solid 10px red;
+    border-radius: 12px;
+}
+
+p {
+    
+    font-size: 14px;
+    margin: 5px 5px;
+    color: black;
+}
+
+.imagenPortadaUno {
+    width: 300px;
+    height: 450px;
+    border: white 12px inset
+}
+
+.imagenPortadaDos {
+    width: 300px;
+    height: 450px;
+    border: white 12px inset
+}
+
+.imagenPortadaTres {
+    width: 300px;
+    height: 450px;
+    border: white 12px inset    
+}
+
+.imagenPortadaUno:hover {
+    background-color: darkred;
+    padding: 15px;
+    border: outset;
+    border-radius: 30px;
+    color: white;
+}
+
+.imagenPortadaDos:hover {
+    background-color: darkred;
+    padding: 15px;
+    border: outset;
+    border-radius: 30px;
+    color: white;
+}
+
+.imagenPortadaTres:hover {
+    background-color: darkred;
+    padding: 15px;
+    border: outset;
+    border-radius: 30px;
+    color: white;
+}
+
+.descr-lib {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: start;
+    font-size: 10px;
+
+}
+
+.libroPortadaUno {
+    width: 200px;
+    height: 350px;
+    border: white 12px inset
+}
+
+.libroPortadaDos {
+    width: 200px;
+    height: 350px;
+    border: white 12px inset
+}
+
+.libroPortadaTres {
+    width: 200px;
+    height: 350px;
+    border: white 12px inset    
+}
+
+section ul li a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    
+
 }
